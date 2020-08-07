@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <div><h1>The Random Quote Generator</h1></div>
+        <!-- Quote -->
+     <div class="quote-text">
+         <i class="fas fa-quote-left"></i>
+             <span id="quote"></span>
+     </div> 
+        <!-- Author --> 
+        <div class="quote-author">
+            <span id="author"></span>
+        </div> 
+        <!-- Buttons-->
+        <div class="button-container">
+           <button class="twitter-button" id="twitter" type="Tweet this!">
+               <i class="fab fa-twitter"></i>
+           </button>
+           <button id="new-quote">New Quote</button>
+        </div>
+        <div class="legend">
+            <legend><small><i>Created with</i></small>
+                <img src="emotic.svg" id="emotic"> 
+                <small> at</small><a href="https://cutt.ly/vdLJhZS" alt="_blank" id="udemy"> Udemy.com</a></legend>
+            <legend><a href="" id="github"><small>"Get full code of this app here!"</small></a></legend>
+        </div> 
+    </div>
+    <!-- Loader-->
+    <div class="loader" id="loader"></div>
+ <script src="script.js"></script>
+</body>
+</html>
